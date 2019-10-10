@@ -8,7 +8,7 @@
     <view class="section-part_column_border">
       <view  class="section-part_column" bindtap="switchTabToAboutUs">
         <image class="section-part_column_img" style="width:100rpx;height:100rpx;" src="/source/image/global/about_us.png" />
-        <text class="section-part_column_text">关于我们。</text>
+        <text class="section-part_column_text">关于我们</text>
       </view>
     </view>
     <view class="section-part_column_border">
