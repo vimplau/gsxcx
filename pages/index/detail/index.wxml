@@ -1,0 +1,26 @@
+<!--pages/index/detail/index.wxml-->
+<view wx:if="{{is_teacher}}">
+    <view >
+        <text class="title">特邀讲师：{{teacher_detail.teacher_name}}</text>
+    </view>
+    <view class="middle">
+        <text class="date">{{teacher_detail.create_time}}</text>
+        <text class="view_count">阅读量 {{teacher_detail.view_count}}</text>
+    </view>
+    <view class="content">
+        <image style="width:100%;margin-right:30rpx;" src="{{teacher_detail.teacher_content_url}}" mode="widthFix" data-src="{{teacher_detail.teacher_content_url}}"  bindtap="previewImg"/>
+    </view>
+    
+</view>
+<view wx:else>
+    <view >
+        <text  class="title">{{news_detail.news_name}}</text>
+    </view>
+    <view class="middle">
+        <text class="date">{{news_detail.create_time}}</text>
+        <text class="view_count">阅读量 {{news_detail.view_count}}</text>
+    </view>
+    <view class="content">
+        <image style="width:100%;margin-right:30rpx;" src="{{news_detail.news_content_url}}" mode="widthFix" data-src="{{news_detail.news_content_url}}"  bindtap="previewImg"/>
+    </view>
+</view>

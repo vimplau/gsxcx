@@ -1,0 +1,98 @@
+<!--index.wxml-->
+<view>
+  <view>
+    <image class="introductionImg" src="{{activity_data.patch_img_url}}" data-src="" bindtap="get_activity_detail"></image>
+  </view>
+  <view class="gray-16"></view>
+  <view class="section section_gap section-part">
+    <view class="section-part_column_border">
+      <view  class="section-part_column" bindtap="switchTabToAboutUs">
+        <image class="section-part_column_img" style="width:100rpx;height:100rpx;" src="/source/image/global/about_us.png" />
+        <text class="section-part_column_text">关于我们</text>
+      </view>
+    </view>
+    <view class="section-part_column_border">
+      <view  class="section-part_column" bindtap="navigateToTeacher">
+        <image class="section-part_column_img" style="width:100rpx;height:100rpx;" src="/source/image/global/teacher.png" />
+        <text class="section-part_column_text">专家介绍</text>
+      </view>
+    </view>
+        <view class="section-part_column_border">
+      <view  class="section-part_column" bindtap="navigateToNews">
+        <image class="section-part_column_img" style="width:100rpx;height:100rpx;" src="/source/image/global/news.png" />
+        <text class="section-part_column_text">新闻动态</text>
+      </view>
+    </view>
+        <view class="section-part_column_border">
+      <view  class="section-part_column" bindtap="switchTabToExperience">
+        <image class="section-part_column_img" style="width:100rpx;height:100rpx;" src="/source/image/global/activity_enroll.png" />
+        <text class="section-part_column_text">活动报名</text>
+      </view>
+    </view>
+  </view>
+  <view class="gray-16"></view>
+  <view class="section section_gap work-text">
+    <text> —  </text><text >活动类型</text> <text>  —  </text>
+  </view>
+  <view class="gray-2"></view>
+  <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex"  >
+    <view class="work-bl_column" wx:for="{{school_feature_list}}">
+      <view wx:if="{{index === school_feature_list.length - 1}}">
+        <image  class="work-bl_column_img"  src="{{item.picture_url}}" data-src="{{item.picture_url}}" bindtap="preview_special" style="margin-right:30rpx;"/>
+      </view>
+      <view wx:else>
+        <image  class="work-bl_column_img"  src="{{item.picture_url}}" data-src="{{item.picture_url}}" bindtap="preview_special"/>
+      </view>
+    </view>
+  </scroll-view>
+ 
+  <view class="gray-16"></view>
+  <view class="section section_gap work-text">
+    <text> —  </text><text >专家介绍</text> <text>  —  </text>
+  </view>
+  <view class="gray-2"></view>
+
+  <viewn class="work_teacher">
+    <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex" >
+      <view class="work-teacher_column" wx:for="{{teacher_list}}">
+        <view wx:if="{{index === teacher_list.length - 1}}">
+          <image class="work-teacher_column_img" src="{{item.teacher_cover_url}}" data-src="{{item.teacher_cover_url}}" bindtap="preview_teacher" style="margin-right:30rpx;" />
+          <text class="work-teacher_column_text">{{item.teacher_name}}</text>
+        </view>
+        <view wx:else>
+          <image class="work-teacher_column_img" src="{{item.teacher_cover_url}}" data-src="{{item.teacher_cover_url}}" bindtap="preview_teacher" />
+          <text class="work-teacher_column_text">{{item.teacher_name}}</text>
+        </view>
+
+      </view>
+    </scroll-view>
+  </viewn>
+  
+  <view class="gray-16"></view>
+  <view class="section section_gap work-text">
+    <text> —  </text><text >活动预告</text> <text>  —  </text>
+  </view>
+  <image class="course_img" src="{{preview_course_url}}" />
+
+
+  <view class="gray-16"></view>
+    <view class="section section_gap work-text">
+    <text> —  </text><text >往期回顾</text> <text>  —  </text>
+  </view>
+  <view class="gray-2"></view>
+  <view class="history" >
+    <video class="history_video" src="http://img.gsi.com.cn/video/company.mp4" />  
+  </view>
+
+  <view class="gray-16"></view>
+  <view class="section section_gap work-text">
+    <text> —  </text><text >活动报名</text> <text>  —  </text>
+  </view>
+  <view >
+    <image class="enroll_img" src="{{activity_data.poster_url}}" mode="widthFix"/>
+    <button class="enroll_click" bindtap="experience">点击报名</button>
+  </view>
+
+    
+</view>
+

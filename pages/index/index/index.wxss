@@ -1,0 +1,158 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.introductionImg{
+  width: 100%;
+  height: 150px;
+}
+
+.section-part{
+  width: 100%;
+  height: 200rpx;
+  background-color: #eeeeee;
+  margin-top: 6rpx;
+}
+
+.section-part_column{
+  width: 25%;
+  height: 200rpx;
+  float: left;
+  background-color:white;
+  /* border: 1px solid #eeeeee; */
+}
+
+/* .section-part_column_border{
+  height: 100rpx;
+  margin-left: 100rpx;
+  background-color: red;
+} */
+.section-part_column_img{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20rpx;
+}
+
+.section-part_column_text{
+  width: 100rpx;
+  margin: 0 auto;
+  display: block;
+  font-size: 12px;
+  margin-top: 20rpx;
+}
+
+.work-text{
+  width: 200rpx;
+  height: 100rpx;
+  margin: 0 auto;
+  display: block;
+  font-size: 12px;
+  line-height: 100rpx;
+}
+
+.work-bl_column{
+  width: 290rpx;
+  height: 260rpx;
+  display: inline-block;
+  /* background-color: aquamarine; */
+  /* border:1px solid red; */
+}
+
+.work-bl_column_img{
+  width: 260rpx;
+  height: 200rpx;
+  display: inline-block;
+  background-color: blueviolet;
+  margin-top:30rpx;
+  margin-bottom: 30rpx;
+  margin-left:30rpx;
+  border-radius: 10rpx
+}
+
+.work-teacher_column{
+  width: 290rpx;
+  height: 260rpx;
+  display: inline-block;
+}
+
+.work-teacher_column_img{
+  width: 260rpx;
+  height: 200rpx;
+  display: inline-block;
+  background-color: blueviolet;
+  margin-top:30rpx;
+  margin-bottom: 30rpx;
+  margin-left:30rpx;
+  border-radius: 10rpx
+}
+
+.work-teacher_column_text{
+  font-size: 12px;
+  width: 220rpx;
+  margin-right: 80rpx;
+  display: inline-block;
+  float: left;
+  margin: 20rpx;
+  word-wrap: break-word;
+  word-break: break-all;
+  /* background-color: aqua; */
+  overflow: hidden;
+}
+
+.course_img{
+  width: 100%;
+  height: 300rpx;
+}
+
+.history{
+  width: 100%;
+  height: 400rpx;
+  /* background-color: aqua;
+  border: 1px solid red; */
+}
+.history_video{
+  width:90%;
+  height: 360rpx;
+  display: inline-block;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  margin-left: 5%;
+  /* border: 1px solid #ff0000; */
+
+}
+
+.enroll_img{
+  width: 100%;
+}
+
+.enroll_click{
+  height: 36px;
+  line-height: 36px;
+  width: 52%;
+  font-size: 12px;
+  background-color:#38352f;
+  color: white;
+  display: block;
+  margin-left: 24%;
+  margin-top: -54px;
+}

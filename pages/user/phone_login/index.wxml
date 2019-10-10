@@ -1,0 +1,27 @@
+<!--pages/user/phone_middle/index.wxml-->
+<view class="bg">
+    <view class="border">
+        <view class="title_ico">
+            <image src="/source/image/frame/uniqlo.png" style="width:40px;height:40px;"></image>
+        </view>
+        <form class="" report-submit="false" bindsubmit="formSubmit" bindreset="">
+            <view class="section information" style="margin-top:100px;">
+                <view class="column">
+                    <input name="phone" placeholder="手机号" type="number" class="input-title" onblur="checkInputPhone"/>
+                </view>
+            </view>
+            <view class="section information">
+                <view class="column">
+                    <input name="code" placeholder="验证码" type="number" class="input-title" style="width:200rpx;float:left" onblur="checkInputCode"/>
+                    <button class="getCode" bindtap="getCode" disabled="{{code_disabled}}">{{getCode}}</button>
+                </view>
+            </view>
+            <view >
+                <view class="section">
+                    <button class="input-submit" type="warn" size="{{warnSize}}" loading="{{loading}}" plain="{{plain}}"
+                    disabled="{{disabled}}" form-type="submit"> 登录 </button>
+                </view>
+            </view>
+        </form>
+    </view>
+</view>

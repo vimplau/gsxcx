@@ -1,0 +1,4 @@
+/* pages/course/experience/index.wxss */
+.input{
+    background-color:#f00
+}

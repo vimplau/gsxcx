@@ -1,0 +1,102 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+.red{
+  color:#f00
+}
+
+.line-hight40{
+  line-height:40px
+}
+
+.text-center{
+  text-align:center
+}
+
+.background-grey{
+  background-color:#eeeeee
+}
+
+.background-sky{
+  background-color:#46a3f4
+}
+
+.grey{
+  color:#eeeeee
+}
+
+.white{
+  color: white
+}
+
+.red{
+  color: #f00
+}
+
+.blue{
+  color: blue
+}
+
+.sky{
+  color: #46a3f4
+}
+
+.fl{
+  float:left
+}
+
+.information {
+  font-size: 12px;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-top: 20rpx;
+}
+
+.column{
+  font-size: 12px;
+  height: 40px;
+  background-color: #eeeeee;
+  margin-top: 20rpx;
+  padding-left: 20rpx;
+}
+
+.input-title{
+  font-size: 12px;
+  height:40px
+}
+
+.input-submit{
+  margin: 30rpx;
+}
+
+.top{
+  width: 100%;
+  height: 100%;
+  background-color: #eeeeee;
+}
+
+.gray-2{
+  width: 100%;
+  height: 2rpx;
+  background-color: #eeeeee;
+}
+
+.gray-16{
+  width: 100%;
+  height: 16rpx;
+  background-color: #eeeeee;
+}
+
+.gray-20{
+  width: 100%;
+  height: 20rpx;
+  background-color: #eeeeee;
+}

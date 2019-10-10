@@ -1,0 +1,5 @@
+<!--pages/index/introduction/index.wxml-->
+  <view >
+    <image class="enroll_img" src="{{activity_data.content_url}}" mode="widthFix"/>
+    <button class="enroll_click" bindtap="experience">点击报名</button>
+  </view>

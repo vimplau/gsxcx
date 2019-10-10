@@ -1,0 +1,50 @@
+/* pages/index/activity/index.wxss */
+.section{
+    width: 90%;
+    height: 85px;
+    margin-left: 5%;
+    /* border-bottom: 1px solid red; */
+}
+
+.section_left{
+    width: 400rpx;
+    height: 60px;
+    float: left;
+    display: block;
+    /* border: 1px solid #eeeeee; */
+}
+
+.section_left_teacher{
+    width: 400rpx;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 15px;
+    float: left;
+    display: block;
+    /* border: 1px solid #eeeeee; */
+}
+
+.section_left_time{
+    width: 400rpx;
+    height: 20px;
+    font-size: 10px;
+    color: #666666;
+    float: left;
+    display: block;
+    margin-top: 15px;
+    /* border: 1px solid #666666; */
+}
+
+.section_right{
+    width: 160rpx;
+    height: 60px;
+    float: right;
+    margin-right: 0rpx;
+    margin-top: 15px;
+}
+
+.section_right_img{
+    width: 160rpx;
+    height: 60px;
+    border-radius: 3px;
+}

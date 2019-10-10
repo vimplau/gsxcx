@@ -1,0 +1,26 @@
+<!--pages/user/index/index.wxml-->
+<view wx:if="{{isLogin}}">
+    <view class="bg">
+        <view class="user">
+            <view class="user_image">
+                <image class="userinfo-avatar" src="{{avatarUrl}}" data-src="{{avatarUrl}}" mode="cover" bindtap='previewImg'></image>
+            </view>
+            <view class="user_phone">
+                <text class="userinfo-nickname">{{userPhone}}</text>
+            </view>
+        </view>
+
+        <view class="about_us" bindtap="aboutUs">
+            <view >
+                <image class="about_us_ico" src="{{avatarUrl}}"></image>
+                <text class="about_us_text" >关于我们</text>
+            </view>
+        </view>
+        <view class="about_us" bindtap="loginOut">
+            <view >
+                <image class="about_us_ico" src="{{avatarUrl}}"></image>
+                <text class="about_us_text" >退出登录</text>
+            </view>
+        </view>
+    </view>
+</view>

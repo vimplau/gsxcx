@@ -1,0 +1,24 @@
+<!--pages/index/teacher/index.wxml-->
+<scroll-view scroll-y class="aside flex-wrap flex-direction-col" bindscrolltolower="get_teacher_list" style="height:600px;">
+    <view class="section" wx:for="{{teacher_list}}">
+        <view wx:if="{{index == 0}}" bindtap="teacher_detail" data-src="{{item.teacher_id}}">
+            <view class="section_left">
+                <view class="section_left_teacher">特邀讲师：{{item.teacher_name}}</view>
+                <view class="section_left_time">{{item.create_time}}</view>
+            </view>
+            <view class="section_right">
+                <image class="section_right_img" src="{{item.teacher_cover_url}}" />
+            </view>
+        </view>
+        <view wx:else style="border-top:1px solid #eeeeee" bindtap="teacher_detail" data-src="{{item.teacher_id}}">
+            <view class="section_left">
+                <view class="section_left_teacher">特邀讲师：{{item.teacher_name}}</view>
+                <view class="section_left_time">{{item.create_time}}</view>
+            </view>
+            <view class="section_right">
+                <image class="section_right_img" src="{{item.teacher_cover_url}}" />
+            </view>
+        </view>
+        
+    </view>
+</scroll-view>

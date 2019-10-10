@@ -1,0 +1,62 @@
+/* pages/course/index/index.wxss */
+
+.fl{
+    float:left
+}
+
+.border-red{
+    border:1px solid red;
+}
+
+.border-blue{
+    border:1px solid blue;
+}
+
+.fl{
+    float: left;
+}
+
+.course{
+    margin-top: 20rpx;
+    margin-left: 20rpx;
+    float: left;
+}
+
+.course_img{
+  width: 180px; 
+  height: 120px;
+  float:left
+}
+
+.course_text{
+  width:300rpx;
+  float: left;
+  font-size:12px;
+  margin-top:20rpx;
+  margin-left:20rpx;
+  /* border: 1px solid red; */
+}
+
+.course_teacher{
+  width:300rpx;
+  float: left;
+  font-size: 12px;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  /* border: 1px solid red; */
+
+}
+
+.enroll_text{
+  float: left;
+  height: 14px;
+}
+
+.enroll_button{
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  font-size: 12px;
+  background-color:#46a3f4;
+  color: white;
+}
+  

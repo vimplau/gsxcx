@@ -1,0 +1,24 @@
+<!--pages/index/activity/index.wxml-->
+<scroll-view scroll-y class="aside flex-wrap flex-direction-col" bindscrolltolower="get_news_list" style="height:600px;">
+    <view class="section" wx:for="{{news_list}}">
+        <view wx:if="{{index == 0}}" bindtap="news_detail" data-src="{{item.news_id}}">
+            <view class="section_left">
+                <view class="section_left_teacher">{{item.news_name}}</view>
+                <view class="section_left_time">{{item.create_time}}</view>
+            </view>
+            <view class="section_right">
+                <image class="section_right_img" src="{{item.news_cover_url}}" />
+            </view>
+        </view>
+        <view wx:else style="border-top:1px solid #eeeeee" bindtap="news_detail" data-src="{{item.news_id}}">
+            <view class="section_left">
+                <view class="section_left_teacher">{{item.news_name}}</view>
+                <view class="section_left_time">{{item.create_time}}</view>
+            </view>
+            <view class="section_right">
+                <image class="section_right_img" src="{{item.news_cover_url}}" />
+            </view>
+        </view>
+        
+    </view>
+</scroll-view>

@@ -1,0 +1,20 @@
+<!--pages/course/index/index.wxml-->
+<!-- <text>pages/course/index/index.wxml</text> -->
+<view class="page__bd">
+    <scroll-view scroll-y class="aside flex-wrap flex-direction-col" bindscrolltolower="loadMore" style="height:600px;">
+         <view class="section section_gap course" wx:for="{{course_list}}">
+            <view>
+                <image class="course_img" mode="scaleToFill" src="{{item.course_cover_url}}"></image>
+            </view>
+            <view class="course_text">
+                <text>《{{item.course_name}}》</text>
+            </view>
+            <view class="course_teacher">
+                <text>特邀讲师：{{item.teacher_name}}</text>
+            </view>
+            <view class="fl" style="hight:14px;">
+                <button size="mini" class="enroll_button" bindtap="experience" >预约报名</button>
+            </view>  
+        </view>
+    </scroll-view>
+</view>

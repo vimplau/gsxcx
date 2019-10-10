@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/icon_auditions</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="6-22打卡形式优化" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="打卡形式3" transform="translate(-315.000000, -1120.000000)">
+            <g id="icon/icon_auditions" transform="translate(315.000000, 1120.000000)">
+                <circle id="Oval" fill="#00CD85" cx="60" cy="60" r="60"></circle>
+                <path d="M76.4176373,52.8692064 L58.3144758,41.7535574 C52.2046588,37.9784314 46.9999999,40.4951821 47,47.4162465 L47,72.5837535 C47,79.5048179 51.9783694,82.0215686 58.3144758,78.2464426 L76.4176373,67.1307937 C82.5274542,62.9362092 82.5274542,56.6443324 76.4176373,52.8692064 Z" id="Path" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index/index/index",
+    "pages/index/introduction/index",
+    "pages/index/teacher/index",
+    "pages/index/news/index",
+    "pages/index/detail/index",
+    "pages/about_us/index/index",
+    "pages/course/index/index",
+    "pages/course/experience/index",
+    "pages/user/index/index",
+    "pages/user/login_middle/index",
+    "pages/user/phone_login/index",
+    "pages/login/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "backgroundColor":"#fff",
+    "enablePullDownRefresh":true
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#09bb07",
+    "color": "#888888",
+    "list": [
+      {
+        "pagePath": "pages/index/index/index",
+        "text": "首页",
+        "iconPath": "source/image/frame/icon_home.png",
+        "selectedIconPath": "source/image/frame/icon_home_pre.png"
+      },
+      {
+        "pagePath": "pages/about_us/index/index",
+        "text": "关于我们",
+        "iconPath": "source/image/frame/icon_home.png",
+        "selectedIconPath": "source/image/frame/icon_home_pre.png"
+      },
+      {
+        "pagePath": "pages/course/index/index",
+        "text": "课程资料",
+        "iconPath": "source/image/frame/icon_xiaoxi.png",
+        "selectedIconPath": "source/image/frame/icon_xiaoxi_pre.png"
+      },
+      {
+        "pagePath": "pages/course/experience/index",
+        "text": "在线体验",
+        "iconPath": "source/image/frame/icon_wode.png",
+        "selectedIconPath": "source/image/frame/icon_wode_pre.png"
+      },
+      {
+        "pagePath": "pages/user/index/index",
+        "text": "个人中心",
+        "iconPath": "source/image/frame/icon_wode.png",
+        "selectedIconPath": "source/image/frame/icon_wode_pre.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

@@ -1,0 +1,4 @@
+<!--pages/about_us/index/index.wxml-->
+<!-- <text>pages/about_us/index/index.wxml</text> -->
+<image style="width:100%" mode="widthFix" src="{{picture_url}}" data-src="{{picture_url}}"  bindtap="previewImg"></image>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/空状态/icon_时间到了</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="设计稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-兑换码界面-兑换成功" transform="translate(-160.000000, -292.000000)">
+            <g id="提示弹框" transform="translate(40.000000, 252.000000)">
+                <g id="元素/大图标/完成" transform="translate(120.000000, 40.000000)">
+                    <path d="M56,28.345679 C56,12.5357037 43.4642963,0 27.654321,0 C12.5357037,0 0,12.5357037 0,28.345679 C0,43.4642963 12.5357037,56 27.654321,56 C43.4642963,56 56,43.4642963 56,28.345679 Z" id="Fill-" fill="#09BB07"></path>
+                    <polygon id="Fill-" fill="#FFFFFF" points="13.8982514 29.6369213 15.5185847 27.4321649 23.4986576 33.5484332 42.2209124 17.9512807 43.8412457 19.5515164 23.4980613 39.5722486"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,36 @@
+/* pages/index/detail/index.wxss */
+
+.title{
+    width: 100%;
+    font-size: 18px;
+    margin-left: 30rpx;
+}
+
+.middle{
+    width: 100%;
+    height: 20px;
+    margin-left: 30rpx;
+    /* border: 1px solid red; */
+    margin-top: 5px;
+    line-height: 20px;
+}
+
+.date{
+    font-size: 10px;
+    color: #666666;
+    width: 250rpx;
+    height: 20px;
+    float: left;
+}
+
+.view_count{
+    font-size: 10px;
+    color: #666666;
+    width: 200rpx;
+    height: 20px;
+    float: left;
+}
+
+.content{
+    margin: 30rpx;
+}
